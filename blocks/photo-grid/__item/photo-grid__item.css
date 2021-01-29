@@ -1,0 +1,9 @@
+.photo-grid__item {
+  font-size: 0;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px solid green;
+}
