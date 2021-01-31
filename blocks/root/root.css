@@ -1,7 +1,15 @@
 .root {
-  display: flex;
-  flex-direction: column;
-  min-width: 320px;
+  display: grid;
+  grid-template-columns: 16px minmax(288px, 1184px) 16px;
+  grid-template-rows: 16px repeat(3, minmax(min-content, max-content)) 16px;
+  grid-template-areas:
+    '. . .' /* air */
+    '. h .' /* header */
+    'c c c' /* content */
+    '. f .'  /* footer */
+    '. . .'; /* air */
+  justify-content: center;
+  align-content: center;
   background-color: #2A2C2F;
   color: #FFFFFF;
   font-family: 'Inter', Arial, sans-serif;
@@ -13,5 +21,4 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  padding-top: 16px;
 }

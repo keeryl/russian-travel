@@ -1,0 +1,6 @@
+.footer {
+  grid-area: f;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  justify-content: space-between;
+}

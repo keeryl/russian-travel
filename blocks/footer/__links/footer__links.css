@@ -1,0 +1,6 @@
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  padding: 0;
+  list-style: none;
+}

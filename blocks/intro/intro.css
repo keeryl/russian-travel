@@ -1,9 +1,10 @@
 .intro {
+  grid-area: i;
+  justify-self: start;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 88px 16px 0;
+  padding: 92px 0 0;
   margin: 0;
-  border: 2px solid red;
-  width: 90%;
+  max-width: 720px;
 }
