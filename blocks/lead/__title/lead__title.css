@@ -8,3 +8,24 @@
   width: 100%;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: 76px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .lead__title {
+    font-size: 56px;
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .lead__title {
+    font-size: 40px;
+    margin: 0 0 16px 0;
+  }
+}
