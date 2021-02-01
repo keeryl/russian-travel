@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1184px;
+  border: 1px solid white;
+  box-sizing: border-box;
+}

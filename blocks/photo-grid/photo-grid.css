@@ -1,10 +1,13 @@
 .photo-grid {
-  grid-area: g;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 300px));
-  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   padding: 64px 0 0 0;
   margin: 0;
-  gap: 12px;
+  gap: 16px;
+  border: 1px solid green;
+  box-sizing: border-box;
 }

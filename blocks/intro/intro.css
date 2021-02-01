@@ -1,10 +1,10 @@
 .intro {
-  grid-area: i;
-  justify-self: start;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 92px 0 0;
   margin: 0;
-  max-width: 720px;
+  border: 1px solid red;
+  width: 100%;
+  max-width: 984px;
 }

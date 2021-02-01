@@ -1,7 +1,9 @@
 .header {
-  grid-area: h;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   justify-content: space-between;
-  justify-items: center;
+  border: 1px solid red;
+  padding: 16px 16px 0;
+  box-sizing: border-box;
 }

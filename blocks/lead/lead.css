@@ -1,8 +1,8 @@
 .lead {
-  grid-area: l;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 56px 0 0 0;
+  width: 100%;
 }

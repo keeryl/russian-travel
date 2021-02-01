@@ -1,13 +1,9 @@
 .content {
-  grid-area: c;
+  display: flex;
   justify-content: center;
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: repeat(5, minmax(min-content, max-content));
-  grid-template-areas:
-    'l l l l l l l l l l l l l l l l l l l l l l l l'  /* lead */
-    '. . i i i i i i i i i i i i i i i i i i i i . .'  /* intro */
-    'g g g g g g g g g g g g g g g g g g g g g g g g'  /* photo-grid */
-    '. . p p p p p p p p p p p p p p p p p p p p . .'  /* places */
-    'c c c c c c c c c c c c c c c c c c c c c c c c'; /* cover */
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  width: 100%;
 }
