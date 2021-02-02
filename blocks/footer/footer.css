@@ -1,6 +1,8 @@
 .footer {
-  grid-area: f;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  width: 100%;
+  max-width: 1016px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  padding: 92px 0 24px;
 }

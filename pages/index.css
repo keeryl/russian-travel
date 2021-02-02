@@ -39,6 +39,10 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list/_font-weight/intro__list_font-weight_400.css);
 
+/* photo-grid-section */
+
+@import url(../blocks/photo-grid-section/photo-grid-section.css);
+
 /* photo-grid */
 
 @import url(../blocks/photo-grid/photo-grid.css);
