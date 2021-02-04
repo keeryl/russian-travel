@@ -7,3 +7,21 @@
   max-width: 560px;
   text-align: center;
 }
+
+@media screen and (max-width: 624px) {
+  .cover__title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .cover__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .cover__title {
+    font-size: 32px;
+  }
+}

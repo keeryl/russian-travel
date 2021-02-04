@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1184px;
-  border: 1px solid white;
+  max-width: 1280px;
   box-sizing: border-box;
 }

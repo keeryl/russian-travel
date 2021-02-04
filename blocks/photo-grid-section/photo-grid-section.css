@@ -1,3 +1,4 @@
 .photo-grid-section {
   width: 100%;
+  max-width: calc(1184px + 32px);
 }

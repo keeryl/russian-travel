@@ -5,4 +5,11 @@
   line-height: 1.4;
   letter-spacing: .15em;
   width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 994px) {
+  .lead__caption {
+    padding: 0 0 0 16px;
+  }
 }
