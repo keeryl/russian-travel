@@ -33,3 +33,9 @@
     min-height: 380px;
   }
 }
+
+@media screen and (max-width: 448px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
