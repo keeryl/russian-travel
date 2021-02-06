@@ -1,8 +1,35 @@
 .cover__background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: auto;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  object-fit: scale-down;
-  z-index: 1;
+  height: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, .3);
+  opacity: 1;
+  transition: background-color .2s linear;
+}
+
+.cover__background:hover {
+  background-color: rgba(42, 44, 47, .8);;
+}
+
+@media screen and (max-width: 1025px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .cover__background {
+    min-height: 380px;
+  }
 }

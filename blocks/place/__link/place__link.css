@@ -4,6 +4,7 @@
   color: #fff;
   opacity: 1;
   transition: opacity .2s linear;
+  align-self: start;
 }
 
 .place__link:hover {
