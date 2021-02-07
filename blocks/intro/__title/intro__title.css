@@ -1,12 +1,19 @@
 .intro__title {
   margin: 0 16px 40px;
   font-size: 54px;
-  line-height: 1.1;
+  line-height: 1.08; /* изменил line-height */
   font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) { /* попробовал уменьшить max-width до 767px */
   .intro__title {
     font-size: 32px;
   }
 }
+
+/* Я не могу понять, в чем ошибка. В макете для экрана 768 у intro__title
+указаны следующие параметры: font-size: 54px; line-height: 58px; font-family: Inter;
+font-weight: 900; */
+
+/* При проверке страницы в инструменах разработчика я вручную ввел ширину экрана 768px
+и параметры шрифта совпадают с макетом. Попробовал уменьшить max-width в медиазапросе до 767px. В чем ошибка? */
